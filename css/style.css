@@ -32,7 +32,7 @@ nav {
     font-style: normal;
     color: black;
     top: 25%;
-    left: 15px;
+    padding-left: 15px;
     vertical-align: middle;
 }
 #super_heroes {
@@ -45,7 +45,7 @@ nav {
 }
 h1 {
     position: relative;
-    left: 15px;
+    padding-left: 15px;
     top: 25%;
 }
 
