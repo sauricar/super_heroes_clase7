@@ -3,11 +3,6 @@
     box-sizing: border-box;
     margin: 0px;
 }
-nav {
-    position: sticky;
-    top: 0px;
-    z-index: 100;
-}
 
 #plus_boton{
     position: fixed;
@@ -40,19 +35,43 @@ nav {
     top: 30px;
     background-color: #00669F;
     color: #FFFFFF;
-    height: 65px;
+    height: 74px;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
-h1 {
+header>div>img {
+    display: inline-block;
     position: relative;
-    padding-left: 15px;
+    vertical-align: middle;
+    left: 10px;
+}
+nav {
+    position: relative;
+    background-color: #001D2D;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 40px;
+    text-align: right;
+    
+}
+nav>a {
+    display: inline-block;
+    position: relative;
+    width: 100px;
     top: 25%;
+    text-align: center;
+}
+h1 {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    vertical-align: middle;
 }
 
 .heroes {
+    display: inline-block;
     height: auto;
+    width: 33%;
     position: relative;
-    align-content: center;
     padding-bottom: 15px;
 }
 .heart{
@@ -67,7 +86,7 @@ h1 {
     display: flex;
     color: #FFFFFF;
     background-size: cover;
-    margin: 45px auto 0px auto;
+    margin: 150px auto 0px auto;
     height: 170px;
     width: 293px;
     border-top-left-radius: 28px;
@@ -91,6 +110,7 @@ h1 {
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 120px;
     height: auto;
     width: 293px;
     padding: 10px;
@@ -102,12 +122,14 @@ h1 {
     width: 100%;
     text-align: center;
     padding-top: 75px;
+    padding-bottom: 10px;
 }
 .descrip_heroe{
     position: relative;
     display: block;
     color: #000000;
     padding: 5px;
+    height: 150px;
     text-align: justify;
 }
 .boton{
