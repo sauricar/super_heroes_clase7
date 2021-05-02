@@ -16,6 +16,7 @@
     border-radius: 50%;
     padding-top: 10px;
     z-index: 105;
+    text-decoration: none;
 }
 
 #descuento {
@@ -235,3 +236,169 @@ p>textarea {
     font-weight: bold;
     font-family: 'Karla', sans-serif;
 }
+.aniadir_hero{
+    background-color: #00669F;
+    position:relative;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    height: auto;
+    width: 70%;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+#anadir_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+#form_aniadir_hero {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.left_column_aniadir {
+    display: inline-grid;
+    place-items: initial;
+    text-align: left;
+    padding-right: 10px;
+    width: 45%;
+}
+
+.right_column_aniadir {
+    display: inline-grid;
+    text-align: left;
+    padding-left: 10px;
+    width: 45%;
+    
+}
+
+.left_column_aniadir>label{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px ;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.left_column_aniadir>input {
+    border-radius: 12px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    height: 47px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 8px
+}
+
+.left_column_aniadir>textarea {
+    border-radius: 12px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    height: 330px;
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 8px;
+}
+
+.right_column_aniadir>label{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px ;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.right_column_aniadir>input {
+    border-radius: 12px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    height: 47px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 8px;
+}
+
+#agregar_foto>label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    display: block;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+#agregar_foto>input {
+    border-radius: 12px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    background-color: #CECECE;
+    height: 47px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 11px;
+    vertical-align: middle;
+    color: black;
+}
+
+#round_check {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#round_check>label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding-bottom: 20px;
+    display: block;
+}
+
+#round_check>label>input {
+    margin-right: 5px;
+}
+
+#round_check>p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+
+hr {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+}
+
+#submit_button_aniadir>button {
+    width: 70%;
+    height: 65px;
+    background-color: #1cd1b0;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 20px;
+    border: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
