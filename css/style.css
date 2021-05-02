@@ -71,7 +71,7 @@ h1 {
 
 .heroes {
     display: inline-block;
-    height: auto;
+    height: 800px;
     width: 33%;
     position: relative;
     padding-bottom: 15px;
@@ -396,6 +396,27 @@ hr {
     margin-bottom: 20px;
 }
 
+#plus_boton:hover {
+    background-color: #001D2D;
+}
+
+#submit_button_aniadir>button:hover {
+    background-color: #001D2D;
+    color: white;
+}
+
+input[type="text"]:valid {
+    background-color: #AFF9FE;
+}
+
+.left_column_aniadir>input[type="date"]:focus{
+    border:2px solid #FF0000;
+}
+
+.hover_heroes{
+    width:inherit;
+    display: inline list-item;
+}
 
 
 
